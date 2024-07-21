@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <header id="header">
+      <h1><a href="index.html">Portfoliio</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" target="_blank"><img class="icon" src="icon_sns.png" alt="SNS"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="mainvisual">
+        <img src="image/mainvisual.png" alt="メインビジュアル">
+      </div>
+      <section id="about">
+        <h2>About</h2>
+        <ul>
+          <li>Xxxxx Asagumo</li>
+          <li>nationality: japan</li>
+          <li>tel: 000-0000-0000</li>
+          <li>url: www.xxxxxx.jp</li>
+          <li>mail: xxx@xxxxxx.jp</li>
+        </ul>
+        <p>ポートフォリオをご覧いただきありがとうございます。<br>過去のお仕事や実績は「Gallery」、お仕事のご依頼は「Contact」からお願いいたします。</p>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <ul>
+          <li><a href="#"><img src="image/gallery_01.jpg" alt="gallery_01"></a></li>
+          <li><a href="#"><img src="image/gallery_02.jpg" alt="gallery_02"></a></li>
+          <li><a href="#"><img src="image/gallery_03.jpg" alt="gallery_03"></a></li>
+          <li><a href="#"><img src="image/gallery_04.jpg" alt="gallery_04"></a></li>
+          <li><a href="#"><img src="image/gallery_05.jpg" alt="gallery_05"></a></li>
+          <li><a href="#"><img src="image/gallery_06.jpg" alt="gallery_06"></a></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Cntact</h2>
+        <form action="#" method="post">
+          <div class="label_wrap">
+            <label for="name">NAME</label>
+            <input type="text" id="name">
+          </div>
+          <div class="label_wrap">
+            <label for="email">E-mail</label>
+            <input type="mail" id="email">
+          </div>
+          <div class="label_wrap">
+            <label for="massage">MESSAGE</label>
+            <textarea id="message"></textarea>
+          </div>
+          <div class="submit_button">
+            <input type="submit" value="送信">
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy;2022&nbsp;Portfolio</p>
+    </footer>
+  </body>
+</html>
